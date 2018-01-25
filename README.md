@@ -45,13 +45,18 @@ Copy this repository:
 `git clone https://github.com/yarenty/nheqminer.git`
 
 Generating asm object file:
-`cd nheqminer/cpu_xenoncat/asm_linux/`
-`sh assemble.sh`
+```
+cd nheqminer/cpu_xenoncat/asm_linux/
+chmod +x *
+sh assemble.sh
+cd ../../../
+```
 
-`cd ../../../`
-`mkdir build && cd build`
-`cmake ../nheqminer -DCUDA_CUDART_LIBRARY=/usr/local/cuda/lib64/libcudart.so`
-`make -j $(nproc)`
+```
+mkdir build && cd build
+cmake ../nheqminer -DCUDA_CUDART_LIBRARY=/usr/local/cuda/lib64/libcudart.so
+make -j $(nproc)
+```
 
 *`cmake ../nheqminer -DCUDA_CUDART_LIBRARY=/usr/local/cuda-9.0/lib64/libcudart.so`*
 
