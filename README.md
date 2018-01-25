@@ -1,11 +1,8 @@
 # Yarenty version ;-)
 
-*Changes to work on any GPU on Ubuntu - DJEZO! -  tested on CUDA 8.0  and CUDA 9.0 *
+*Changes to work on any GPU on Ubuntu - DJEZO! -  tested on CUDA 8.0  and CUDA 9.0*
 
 ## Build instructions:
-
-### Dependencies:
-  - Boost 1.62+
 
 ## Linux
 Working solvers CPU_XENONCAT, CUDA_DJEZO
