@@ -1,6 +1,6 @@
 # Yarenty version ;-)
 
-*Changes to work on any GPU on Ubuntu - DJEZO! -  tested on CUDA 8.0  and CUDA 9.0*
+*Changes to work on any GPU on Ubuntu - DJEZO! - (tested on CUDA 8.0  and CUDA 9.0)*
 
 ## Build instructions:
 
@@ -15,10 +15,10 @@ Off:CPU_TROMP, CUDA_TROMP
     - PATH="$PATH:/usr/local/cuda-8.0/"
     - PATH="$PATH:/usr/local/cuda-8.0/bin"
 
-  - Use Boost 1.62+ (if it is not available from the repos you will have to download and build it yourself)
-  - CMake v3.5 (if it is not available from the repos you will have to download and build it yourself)
+Dependencies:
+  - Boost 1.62+ 
+  - CMake v3.5 
   - Currently support only static building (CPU_XENONCAT, CUDA_DJEZO are enabled by default, check **CMakeLists.txt** in **nheqminer** root folder)
-  - If not on Ubuntu make sure you have **fasm** installed and accessible in **PATH**
   
 ### Ubuntu 16.04:
 
